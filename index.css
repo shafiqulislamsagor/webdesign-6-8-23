@@ -1,0 +1,83 @@
+* {
+    padding: auto;
+    margin: auto;
+}
+
+.main-manu li {
+    display: inline-block;
+}
+
+.main-manu li a {
+    background-color: rgb(4, 94, 59);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 50px;
+    border-radius: 20px;
+    margin: 10px auto;
+    border: 2px solid rgb(97, 0, 0);
+}
+
+.main-manu li a:hover {
+    background-color: green;
+}
+
+.main-manu {
+    text-align: center;
+}
+
+.full-website {
+    text-align: center;
+    width: 1024px;
+    margin: 20px auto;
+    color: black;
+    box-shadow: 1px 1px 6px 6px rgb(38, 41, 46);
+    background-color: #9cabad;
+}
+
+.menu h1 {
+    background-color: rgb(16, 124, 115);
+    color: rgb(80, 9, 58);
+    text-shadow: 1px 2px rgb(241, 241, 13);
+    display: inline-block;
+    padding: 8px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 3px;
+    margin-bottom: -5px;
+}
+
+.content h2 {
+    text-decoration: underline;
+    display: inline-block;
+    text-shadow: 2px 2px rgb(165, 177, 7);
+    color: rgb(31, 27, 41);
+    font-family: initial;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #0b5c58;
+    color: #c0be3a;
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    padding-top: -15px;
+    margin: 10px auto;
+    text-shadow: 2px 2px black;
+}
+
+.footer-bottom {
+    background-color: #b69c9c;
+    margin-top: -10px;
+    color: rgb(75, 18, 233);
+    font-size: 11px;
+    text-shadow: 1px 1px green;
+    font-style: italic;
+}
